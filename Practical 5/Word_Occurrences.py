@@ -1,5 +1,4 @@
 
-
 def main():
     odd_words = {}
     text = input("Text: ")
@@ -12,4 +11,5 @@ def main():
     max_length = max((len(word) for wor in words))
     for word in words:
         print("{:{}}".format(word, max_length, odd_words[word]))
+
 main()
