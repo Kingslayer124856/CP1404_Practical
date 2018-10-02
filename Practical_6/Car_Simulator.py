@@ -2,8 +2,9 @@
 CP1404/CP5632 Practical - Suggested Solution
 Car Driving Simulator
 """
-from prac_06.car import Car
+from Practical_6.car import Car
 
+##Issue with import
 MENU = "Menu:\nd) drive\nr) refuel\nq) quit"
 
 
@@ -11,7 +12,6 @@ def main():
     """Car simulator program, demonstrating use of Car class."""
     print("Let's drive!")
     name = input("Enter your car name: ")
-    # create a Car instance with initial fuel of 100 and user-provided name
     car = Car(name, 100)
     print(car)
     print(MENU)
