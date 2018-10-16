@@ -1,4 +1,4 @@
-from Practical_6.guitar import Guitar
+from Practical_06.guitar import Guitar
 
 
 def main():
